@@ -1,0 +1,7 @@
+﻿.ordinary {
+	display: inline-block;
+	font: 1em sans-serif;
+	color: #D95145;
+	border: 2px dashed #D93728;
+	padding: 10px 5px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Моя первая страница</title>
+	<link rel="stylesheet" href="css/style-1.css">
+	<link rel="stylesheet" href="css/style-2.css">
+	<style>
+		h2 {
+			text-align: center; 
+		}
+		h3 {
+			text-align: center; 
+		}
+		.dashed {
+			color: #1CA261;
+			border-bottom: 1px dashed #1CA261;
+		}
+		.dashed:hover {
+			border-bottom: none;
+		}
+
+		ol {
+			font-size: 20px;
+		}
+
+		.el1, .el2, .el3 {
+			list-style: none;
+			position: relative;
+			right: 30px;
+
+		}
+
+		.el1>li:before {
+			content: "·";
+			padding-right: 55px;	
+			
+		}
+
+		.el2>li:before {
+			content: "§";
+			padding-right: 25px;
+		}
+
+		.el3>li:before {
+			content: "o";
+			font-size: 15px;
+			padding-right: 40px;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center">«Я, <a href="Task 2.html">Шабловский Илья Геннадьевич</a>, изучаю <span style="color: #4C8BF5">HTML</span>, CSS и JS» </h1>
+	<h2>Отрывок из резюме</h2>
+	<h3>Личные качества</h3>
+ 	<p class="ordinary">Главными своими <span class="dashed">личными качествами</span> считаю: трудолюбие, честность, добропорядочность и добросовестность.</p>
+ 	<h3>Что нравится?</h3>
+ 	<p id="P1">Мне очень нравится развиваться в области <span class="dashed">информационных технологий</span>: впитывать новые знания. осваивать новые и ранее мне неизвестные технологии.</p>
+ 	<h3>Мои Хобби</h3>
+ 	<p id="P2">Мои хобби: увлекаюсь музыкой (сам владею игрой на гитаре), люблю заниматься спортом и веду <span class="dashed">здоровый активный образ жизни.</span></p>
+	
+	<h3>Список покупок на сегодня</h3>
+ 	<ol>
+ 		<li> Фрукты
+ 			<ul class="el1">
+ 				<li>Апельсины 1.1</li>
+ 				<li>Абрикосы 1.2</li>
+ 			</ul>
+ 		</li>
+ 		<li> Мясо
+ 			<ul class="el2">
+ 				<li>Свинина 2.1</li>
+ 				<li>Куриные грудки 2.2</li>
+ 				<li>Куриные крылышки 2.3</li>
+ 			</ul>
+ 		</li>
+ 		 <li> Молочные продукты
+ 			<ul class="el3">
+ 				<li>Молоко 3.1</li>
+ 				<li>Сыр 3.2</li>
+ 			</ul>
+ 		</li>
+ 	</ol>
+</body>
+</html>
+
+	
+	

@@ -1,40 +1,60 @@
-﻿/*Не удается нормально организовать разные отступы между ячейками в табличной верстке
-, будет здорово, если покажете, как это можно сделать*/
-
-html {
+﻿html {
 	height: 100%
 }
 
 body {
 	margin:0;
+	padding:0;
 	height: 100%;
 }
 
 table {
 	width: 100%;
 	height: 100%;
-	border-spacing: 10px 25px;
+	border-collapse: collapse;
+}
+
+div {
+	height: 100%;
+}
+
+.row1>td, .row2>td, .row3>td {
+	padding: 0 10px 25px 0;
+} 
+
+.row4>td{
+	padding-right: 10px;
+}
+
+.row1 div {
+	background: #FFA335;
+}
+
+.row2 div {
+	background: #DAEC00;
+}
+
+.row3 div {
+	background: #4A89D0;
+}
+
+.row4 div {
+	background: #E3E3E3;
 }
 
 .row1>td {
-	background: #FFA335;
-	padding: 0.3%;
+	height: 10%;
 }
 
 .row2>td {
-	background: #DAEC00;
-	padding: 5%;
+	height: 50%;
 }
 
 .row3>td {
-	background: #4A89D0;
-	padding: 5%;
+	height: 25%;
 }
 
-.row4>td {
-	background: #E3E3E3;
-	padding: 1%;
-}
-
-
-
+/*tr:last-child {
+	padding-right: 0; /*Пытался сбросить padding у крайних элементов в таблице, но не вышло :( */
+/*Также пока не понял, как можно сделать одинакового размера и выровненные ячейки в
+ 3-ей строке (синие) в табличной верстке*/

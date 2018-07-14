@@ -1,19 +1,22 @@
 ﻿body {
 	margin: 0;
 	padding: 0;
-	width: 100%;
 	height: 100%;
-
 }
 
 .container {
-	width: 100%;
+	width: 300px;
+	height: 300px;
 	position: absolute;
     top: 25%;
     bottom: 25%;
+    margin: 0 39vw;
+    border: 5px solid black;
+
 }
 
 .square1, .square2, .square3 {
+	position: absolute;
 	margin: 0 auto;
 	width: 150px;
 	height: 150px;
@@ -24,16 +27,15 @@
 }
 
 .square2 {
-	position: relative;
-	bottom: 100px;
-	left: 50px;
+	left: 75px;
+	top: 75px;
 	background: #00FF00;
 	z-index: 100;
 }
 
 .square3 {
 	background: #0000FF;
-	position: relative;
-	bottom: 200px;
-	left: 100px;
+	left: 150px;
+	top: 150px;
 }
+

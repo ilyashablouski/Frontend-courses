@@ -1,31 +1,30 @@
-﻿body {
+﻿html,body {
 	margin:0;
 	padding:0;
-	height: 100%;
+	width: 100%;
+	overflow: hidden;
+
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-}
-
-.header {
-/*	width: 1010px;
+	width: 810px;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;*/	
+    margin: auto;	
+    
+
 }
 
 .header>div {
 	background: #FFA335;
 	height: 50px;
-	width: 500px;
+	width: 400px;
 }
 
-.header>div:first-child {
+.header>div:first-child { 
 	float: left;
 	margin-right: 5px;
 }
@@ -41,19 +40,44 @@
 
 .main {
 	background: #DAEC00;
-	width: 1010px;
-	height: 250px;
+	width: 810px;
+	height: 180px;
 	margin: 20px 0;
+}
+
+.content {
+	width: 100%;
+	height: 125px;
 }
 
 .content>div {
 	display: inline-block;
 	background: #4A89D0;
-	width: 330px;
-	height: 250px;
+	width: 263.3px;
+	height: 125px;
 	margin-right: 10px;
 }
 
 .content>div:last-child {
 	margin-right: 0px;
+}
+
+footer>div {
+	position: absolute;  /*позиционирование с использованием absolute*/
+	background: #E3E3E3;
+	width: 195px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+footer>div:nth-child(2) {
+	margin-left: 205px;
+}
+
+footer>div:nth-child(3) {
+	margin-left: 410px;
+}
+
+footer>div:nth-child(4) {
+	margin-left: 615px;
 }

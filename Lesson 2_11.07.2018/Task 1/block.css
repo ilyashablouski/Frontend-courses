@@ -1,4 +1,6 @@
-﻿html,body {
+﻿/*В стилях для блочной верстки почему-то не вышло задействовать min-width max-width*/
+
+html,body {
 	margin:0;
 	padding:0;
 	width: 100%;

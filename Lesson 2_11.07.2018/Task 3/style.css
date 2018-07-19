@@ -18,7 +18,7 @@
 
 .header {
 	height: 15%;
-	background: black;
+	background: rgb(106,197,172);
 	border-radius: 0 0 20px 20px;
 }
 
@@ -27,18 +27,18 @@
 	right: 5%;
 	width: 10%;
 	height: 90%;
-	background: rgba(0,0,0,0.7);
+	background: rgba(214,64,120,0.7);
 }
 
 .sidebar>a {
 	display: inline-block;
 	position: absolute;
-	background: rgb(255,140,0);
+	background: rgb(106,197,172);
 	text-decoration: none;
 	color: white;
-	margin-left: 25px;
-	margin-top: 20px;
-	padding: 10px;
+	margin-left: 25%;
+	margin-top: 10%;
+	padding: 15px;
 	border-radius: 20px;
 
 }
@@ -54,15 +54,18 @@
 
 .content {
 	width: 60%;
-	margin-left: 50px;
+	padding: 20px 50px;
 	font-size: 1.5em;
 }
 
 .wrapper {
-	background: rgb(154,205,50);
+	min-height: 100%;
+	background: rgb(253,230,168);
 }
 
 footer {
+	position: relative;
+	z-index: 100;
 	background: black;
 	width: 90%;
 	height: 15%;
@@ -70,6 +73,21 @@ footer {
 
 footer>p {
 	color: white;
-	padding: 0;
+	padding: 10px;
 	margin: 0;
+
+}
+
+footer>p:before {
+	content: "©";
+	padding-right: 5px;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+li:before {
+	content: "✬ ";
 }

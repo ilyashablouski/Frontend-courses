@@ -1,0 +1,27 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container {
+	border: 3px solid black;
+	margin: 5% auto;
+	padding-right: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	width: 370px;
+}
+
+.block {
+	flex-basis: 100px; height: 100px;
+	background: darkblue;
+	flex-shrink: 0;
+	margin: 10px; 
+}
+
+.block2 {
+	height: 200px;
+}
+

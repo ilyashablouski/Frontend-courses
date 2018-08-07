@@ -63,7 +63,7 @@ p {
     line-height: 1.5em;
 }
 
-a {
+.content a {
     display: inline-block;
     margin-top: 70px;
     padding: 10px 7px;
@@ -71,6 +71,31 @@ a {
     background-color: #7092BE;
     color: white;
     border-radius: 7px;
+}
+
+.slider {
+    position: relative;
+    width: 95%;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #7092BE;
+}
+
+.button {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #C3C3C3;
+}
+
+a.l-button{
+    background-image: url(img/back.svg);
+    /* background-repeat: no-repeat; */
+}
+
+a.r-button {
+    background-image: url(img/next.svg);
+    /* background-repeat: no-repeat; */
 }
 
 footer {

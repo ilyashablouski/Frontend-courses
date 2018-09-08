@@ -1,0 +1,18 @@
+body {
+    height: 2000px;
+    background-color: #8AADB3 !important;
+}
+
+
+  .carousel-inner img {
+    height: 500px !important;
+  }
+
+  .text-block {
+    padding-top: 3rem;
+  }
+
+  /* .card {
+    height: auto;
+    max-height: 414px;
+  } */

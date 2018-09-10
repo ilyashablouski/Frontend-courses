@@ -1,5 +1,5 @@
 body {
-    height: 2000px;
+    height: 3000px;
     background-color: #8AADB3 !important;
 }
 
@@ -12,7 +12,8 @@ body {
     padding-top: 3rem;
   }
 
-  /* .card {
-    height: auto;
-    max-height: 414px;
-  } */
+  .img-grid {
+    width: 100%;
+    height: 100%;
+  }
+

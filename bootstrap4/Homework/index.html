@@ -12,7 +12,7 @@
   </head>
   <body>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div class="container">
           <a href="#" class="navbar-brand">
             <img src="http://truequeandounacosa.files.wordpress.com/2013/10/logo-1.png" width="40" height="40" alt="logo">
@@ -140,8 +140,97 @@
           <div class="col-6 col-md-3"><img src="img/grid/7.jpg" class="img-grid" alt="Responsive image"></div>
           <div class="col-6 col-md-3"><img src="img/grid/8.jpg" class="img-grid" alt="Responsive image"></div>
         </div>
-      </div>
+        
+        <h3 class="py-4 text-center">Самая вкусная еда мира</h3>
 
+        <div id="accordion">
+          <div class="card bg-dark text-white mb-1">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Салаты
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <img class="card-img-top" style="width: auto; height: 200px;" src="img/food/salat.jpg" alt="Card image cap">
+                <span class="font-italic" style="font-size: 1.5rem;">"Салат с языком и шампиньонами"</span>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-white mb-1">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed text-success" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Морепродукты
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                  <img class="card-img-top" style="width: auto; height: 200px;" src="img/food/seafood.jpg" alt="Card image cap">
+                  <span class="font-italic" style="font-size: 1.5rem;">"Эликсир здоровья от форели"</span>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-dark text-white mb-1">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed text-success" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Десерты
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                  <img class="card-img-top" style="width: auto; height: 200px;" src="img/food/dessert.jpg" alt="Card image cap">
+                  <span class="font-italic" style="font-size: 1.5rem;">"Персики Мельба"</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+              <h4 class="py-2">Обратная связь:</h4>
+              <div class="form-group">
+                  <label for="name">Ваше имя:</label>
+                  <input type="name" name="name" class="form-control" id="name" placeholder="Name">
+               </div>
+               <div class="form-group">
+                  <label for="email1">E-mail:</label>
+                  <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
+               </div>
+               <div class="form-group">
+                  <label for="phone">Номер телефона:</label>
+                  <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">
+               </div>
+               <div class="form-group">
+                  <label for="message">Сообщение:</label>
+                  <textarea class="form-control" name="message" rows="3"></textarea>
+               </div>
+                  <button type="submit" class="btn btn-success">Отправить сообщение</button>
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4"></div>
+          </div> 
+      </div>
+      <footer class="footer bg-dark">
+        <div class="row" style="height: 100px; line-height: 100px;">
+          <div class="col">
+            <a href="https://twitter.com/?lang=ru" class="footer-link c-space" target="_blank" rel="nofollow"><div class="icon-social icon-twitter"></div>Twitter</a>
+            <a href="https://www.facebook.com" class="footer-link c-space" target="_blank" rel="nofollow"><div class="icon-social icon-facebook"></div>Facebook</a>
+            <a href="https://www.instagram.com/?hl=ru" class="footer-link c-space" target="_blank" rel="nofollow"><div class="icon-social icon-instagram"></div>Instagram</a>
+            <a href="https://www.youtube.com/" class="footer-link c-space" target="_blank" rel="nofollow"><div class="icon-social icon-youtube"></div>Youtube</a>
+          </div>
+        </div>
+        <div class="row pt-3">
+          <div class="col-2"><a class="footer-link" href="https://vk.com/id63226594" target="_blank" >© Ilya Shablovskiy</a></div>
+          <div class="col-2"><a class="footer-link" href="https://vk.com/id63226594" target="_blank" >Контакты: </a> <a class="footer-link" href="https://vk.com/id63226594" target="_blank" >+375447386460</a></div>
+          <div class="col-8"></div>
+        </div>
+      </footer> 
 
       
     <!-- Optional JavaScript -->

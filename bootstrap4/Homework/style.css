@@ -1,8 +1,16 @@
-body {
-    height: 3000px;
-    background-color: #8AADB3 !important;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
+body {
+    margin-bottom: 250px !important;
+    background-color: #DEF7FF !important;
+}
+
+body>.container {
+  padding-top: 66px;
+}
 
   .carousel-inner img {
     height: 500px !important;
@@ -17,3 +25,62 @@ body {
     height: 100%;
   }
 
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+/*     line-height: 200px; */
+    background-color: #f5f5f5;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer .row:last-child {
+    border-top: 1px solid #dcdcdc;
+
+  }
+
+  .footer-link {
+    color: #def7ff;
+  }
+
+  .footer-link:hover {
+    color: #28a745;
+    text-decoration: none;
+  }
+
+  .icon-social {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem 0 1.5rem;
+
+  }
+
+  .icon-twitter {
+    background-image: url(img/icons/twitter.png);
+  }
+
+  .icon-facebook {
+    background-image: url(img/icons/facebook.png);
+  }
+
+  .icon-instagram {
+    background-image: url(img/icons/instagram.png);
+  }
+
+  .icon-youtube {
+    background-image: url(img/icons/youtube.png);
+  }
+
+  .c-space {
+    position: relative;
+    bottom: 10px;
+  }
